@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import {View, Text, Button, StyleSheet} from 'react-native';
-import { getRandomSequence, sleep } from './utils'
+import { getRandomSequence, sleep } from './utils';
 
 const Game = ({ navigation }) => {
     const [sequence, setSequence] = useState([]);
